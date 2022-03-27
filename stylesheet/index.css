@@ -1,6 +1,5 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
-
 body {
     margin:0;
     padding: 0;
@@ -11,6 +10,8 @@ body {
 html, head {
     height: 100vh;
 }
+
+html, body {margin: 0; height: 100%; overflow: hidden}
 
 div#container {
     width: 100vw;
