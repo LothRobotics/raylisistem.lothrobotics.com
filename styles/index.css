@@ -45,6 +45,11 @@ h2 {
 	background-attachment: fixed;
 	z-index: 2;
 }
+
+.banner.mac {
+	background-position-x: right;
+}
+
 header {
 	margin: 0 auto;
 	position: absolute;
