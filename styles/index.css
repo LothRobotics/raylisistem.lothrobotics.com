@@ -384,8 +384,8 @@ div.upperFooter {
 
 @media (max-width: 1000px) {
 	.banner {
-		width: 65%;
-		height: 100%;
+		width: 65% !important;
+		height: 100% !important;
 	}
 }
 
