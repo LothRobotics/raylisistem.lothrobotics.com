@@ -347,6 +347,12 @@ div.upperFooter {
 	}
 }
 
+@media (max-width: 1000px) {
+	.banner {
+		background-attachment: scroll;
+	}
+}
+
 @media (max-width: 765px) {
 	.yarismalogo {
 		width: 90%;
