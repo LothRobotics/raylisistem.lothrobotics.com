@@ -5,4 +5,7 @@ window.onload = fixBackground = () => {
     if (navigator.appVersion.indexOf("Mac") != -1) {
         banner.classList.add('mac')
     }
+    else {
+        banner.classList.add('winzort')
+    }
 }
