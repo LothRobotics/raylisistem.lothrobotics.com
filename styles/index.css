@@ -47,7 +47,7 @@ h2 {
 }
 
 .banner.mac {
-	width: 200%;
+	background-image: url(../images/macosbg.jpg);
 }
 
 header {
