@@ -337,6 +337,9 @@ div.upperFooter {
 	div.yazi {
 		width: 725px;
 	}
+	.banner {
+		background-position: 65% !important;
+	}
 }
 
 @media (max-width: 765px) {
@@ -379,12 +382,15 @@ div.upperFooter {
 		color: white !important;
 		text-align: center;
 	}
+	.banner {
+		background-position: 65% !important;
+	}
 
 }
 
 @media (max-width: 1000px) {
 	.banner {
-		background-position: 65%;
+		background-position: 65% !important;
 	}
 }
 
@@ -408,6 +414,9 @@ div.upperFooter {
 		position: absolute;
 		top: -1vh;
 		left: -5%;
+	}
+	.banner {
+		background-position: 65% !important;
 	}
 }
 
@@ -435,6 +444,9 @@ div.upperFooter {
 	.content .time{
 		margin-top: 2.75vh;
 	}
+	.banner {
+		background-position: 65% !important;
+	}
 }
 
 @media (max-width: 650px) {
@@ -443,6 +455,9 @@ div.upperFooter {
 	}
 	.content .time{
 		margin-top: 3.5vh;
+	}
+	.banner {
+		background-position: 65% !important;
 	}
 }
 
@@ -453,6 +468,9 @@ div.upperFooter {
 	}
 	.content .time{
 		margin-top: 4vh;
+	}
+	.banner {
+		background-position: 65% !important;
 	}
 }
 
@@ -466,6 +484,9 @@ div.upperFooter {
 	.lothlogo {
 		left: 0%;
 		max-width: 50%;
+	}
+	.banner {
+		background-position: 65% !important;
 	}
 
 }
@@ -483,6 +504,9 @@ div.upperFooter {
 		max-width: 85%;
 		top: -1vh;
 	}
+	.banner {
+		background-position: 65% !important;
+	}
 }
 
 @media (max-width: 300px) {
@@ -491,6 +515,9 @@ div.upperFooter {
 		left: -5%;
 		max-width: 75%;
 		top: -2.25vh;
+	}
+	.banner {
+		background-position: 65% !important;
 	}
 }
 
@@ -506,5 +533,8 @@ div.upperFooter {
 		left: -5%;
 		max-width: 70%;
 		top: -1.5vh;
+	}
+	.banner {
+		background-position: 65% !important;
 	}
 }
