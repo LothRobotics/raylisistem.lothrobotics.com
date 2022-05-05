@@ -390,12 +390,7 @@ div.upperFooter {
 
 }
 
-@media (max-width: 1000px) {
-	.banner {
-		width: 100%;
-		background-position: 65% !important;
-	}
-}
+
 
 @media (max-width: 600px) {
 	div.yazi {
