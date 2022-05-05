@@ -12,7 +12,8 @@ body {
 	font-size: 16px;
 	font-family: "Montserrat", sans-serif;
 	background-position: center center;
-	background:	white no-repeat;
+	background-color: white;
+	background-repeat: no-repeat;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
