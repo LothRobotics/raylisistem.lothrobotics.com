@@ -33,7 +33,7 @@ h2 {
 	width: 100%;
 	height: 100vh;
 	background-position: center;
-	background-image: url(../images/background.jpg);
+
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
@@ -48,6 +48,10 @@ h2 {
 
 .banner.mac {
 	background-image: url(../images/macosbg.jpg);
+}
+
+.banner.winzort {
+	background-image: url(../images/background.jpg);
 }
 
 header {
