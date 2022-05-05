@@ -14,6 +14,9 @@ body {
 	background-position: center center;
 	background:	white no-repeat;
 	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-attachment: fixed;
 }
 
@@ -31,13 +34,14 @@ h2 {
 .banner {
 	width: 100%;
 	height: 100vh;
-	background-position: center center;
-	background-image:	url(../images/background.jpg) no-repeat;
+	background-position: center;
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
 	box-sizing: border-box;
 	display: flex;
-    	text-align: center;
+    text-align: center;
 	justify-content: center;
 	align-items: center;
 	background-attachment: fixed;
@@ -48,7 +52,7 @@ header {
 	position: absolute;
 	width: 100%;
 	align-self: flex-start;
-	background-image: linear-gradient(180deg, rgba(0,0,0,0.68531162464986) 0%, rgba(255, 255, 255, 0) 100%);
+	background: linear-gradient(180deg, rgba(0,0,0,0.68531162464986) 0%, rgba(255, 255, 255, 0) 100%);
 }
 header img.lothlogo {
 	position: relative;
@@ -376,15 +380,13 @@ div.upperFooter {
 		color: white !important;
 		text-align: center;
 	}
-	.banner {
-		background-position: 65% !important;
-	}
 
 }
 
 @media (max-width: 1000px) {
 	.banner {
-		left: 65% !important;
+		width: 100%;
+		background-position: 65%;
 	}
 }
 
@@ -408,9 +410,6 @@ div.upperFooter {
 		position: absolute;
 		top: -1vh;
 		left: -5%;
-	}
-	.banner {
-		background-position: 65% !important;
 	}
 }
 
@@ -438,9 +437,6 @@ div.upperFooter {
 	.content .time{
 		margin-top: 2.75vh;
 	}
-	.banner {
-		background-position: 65% !important;
-	}
 }
 
 @media (max-width: 650px) {
@@ -449,9 +445,6 @@ div.upperFooter {
 	}
 	.content .time{
 		margin-top: 3.5vh;
-	}
-	.banner {
-		background-position: 65% !important;
 	}
 }
 
@@ -462,9 +455,6 @@ div.upperFooter {
 	}
 	.content .time{
 		margin-top: 4vh;
-	}
-	.banner {
-		background-position: 65% !important;
 	}
 }
 
@@ -478,9 +468,6 @@ div.upperFooter {
 	.lothlogo {
 		left: 0%;
 		max-width: 50%;
-	}
-	.banner {
-		background-position: 65% !important;
 	}
 
 }
@@ -498,9 +485,6 @@ div.upperFooter {
 		max-width: 85%;
 		top: -1vh;
 	}
-	.banner {
-		background-position: 65% !important;
-	}
 }
 
 @media (max-width: 300px) {
@@ -509,9 +493,6 @@ div.upperFooter {
 		left: -5%;
 		max-width: 75%;
 		top: -2.25vh;
-	}
-	.banner {
-		background-position: 65% !important;
 	}
 }
 
@@ -527,8 +508,5 @@ div.upperFooter {
 		left: -5%;
 		max-width: 70%;
 		top: -1.5vh;
-	}
-	.banner {
-		background-position: 65% !important;
 	}
 }
