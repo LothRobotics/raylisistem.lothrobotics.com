@@ -58,8 +58,8 @@ header {
 header img.lothlogo {
 	position: relative;
 	float: left;
-    height: 100px;
-    width: auto;
+    	height: 100px;
+    	width: auto;
 	transition: opacity 0.2s ease-in;
 }
 
@@ -380,7 +380,7 @@ div.upperFooter {
 	.navbar.active ul li {
 		clear: both;
 		background-color: rgb(47, 44, 44);
-		width: 104.4%;
+		width: 100vw;
 
 	}
 
