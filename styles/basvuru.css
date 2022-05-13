@@ -25,6 +25,14 @@ a:not(.footericon):not(.toggle-btn):not(.navlink) {
     color: black;
 }
 
+a:not(.footericon):not(.toggle-btn):not(.navlink):hover {
+    text-decoration: underline;
+}
+
+a.basvuru2:not(.footericon):not(.toggle-btn):not(.navlink):hover {
+    text-decoration: none;
+}
+
 a.underline-hover:hover {
     text-decoration: underline;
 }
