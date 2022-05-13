@@ -55,6 +55,7 @@ div.basvuru-adimlari ol {
 
 div.basvuru-adimlari ol li {
     margin: 10px auto;
+	overflow-wrap: break-word;
 }
 
 a.medium-anchor {
