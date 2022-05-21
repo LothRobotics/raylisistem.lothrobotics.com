@@ -160,13 +160,13 @@ a.basvuru {
 
 
 
-div#whoWeAre {
+div#aboutus {
     margin-top: 40px;
     margin-left: 12.5%;
     margin-right: 12.5%;
 }
 
-div#whoWeAre article {
+div#aboutus article {
 	text-align: left;
 }
 
@@ -203,7 +203,21 @@ div#announcements div.announcementsBox {
 	justify-content: space-around;
 }
 
-.box-1{
+.box-5{
+	background-color: white;
+	border: solid 2px black;
+	width: 100.1%;
+	overflow-wrap: break-word;
+}
+
+.box-4{
+	background-color: white;
+	border: solid 2px black;
+	width: 100.1%;
+	overflow-wrap: break-word;
+}
+
+.box-3{
 	background-color: white;
 	border: solid 2px black;
 	width: 100.1%;
@@ -216,7 +230,7 @@ div#announcements div.announcementsBox {
 	width: 100.1%;
 }
 
-.box-3 {
+.box-1 {
 	background-color: white;
 	border: solid 2px black;
 	width: 100.1%;
