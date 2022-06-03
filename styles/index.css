@@ -203,38 +203,13 @@ div#announcements div.announcementsBox {
 	justify-content: space-around;
 }
 
-.box-5{
+.box{
 	background-color: white;
 	border: solid 2px black;
 	width: 100.1%;
 	overflow-wrap: break-word;
 }
 
-.box-4{
-	background-color: white;
-	border: solid 2px black;
-	width: 100.1%;
-	overflow-wrap: break-word;
-}
-
-.box-3{
-	background-color: white;
-	border: solid 2px black;
-	width: 100.1%;
-	overflow-wrap: break-word;
-}
-
-.box-2 {
-	background-color: white;
-	border: solid 2px black;
-	width: 100.1%;
-}
-
-.box-1 {
-	background-color: white;
-	border: solid 2px black;
-	width: 100.1%;
-}
 
 .announcementsBox h3 {
 	margin: 20px 20px 5px 20px;
