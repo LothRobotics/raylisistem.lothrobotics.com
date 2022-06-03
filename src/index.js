@@ -36,8 +36,8 @@ const countdown = () => {
     const textDay2 = Math.floor(gap2 / day); 
     const textHour2 = Math.floor(gap2 % day / hour); 
     
-    comptStart.innerText = textDay + ' GÜN';
-    start.innerText = textDay2 + ' GÜN';
+    comptStart.innerText = textDay + 1 + ' GÜN';
+    start.innerText = textDay2 + 1 + ' GÜN';
     //hourText.innerText = textHour + ' SAAT';
 };
 
