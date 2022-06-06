@@ -16,7 +16,7 @@ toggleBtn.addEventListener('click', () => {
 // Date countdown below
 
 const targetDate = new Date(2022, 5, 11).getTime(),
-secondTargetDate = new Date(2022, 5, 4).getTime();
+secondTargetDate = new Date(2022, 5, 6).getTime();
 
 const countdown = () => {
     const now = new Date().getTime();
@@ -30,11 +30,9 @@ const countdown = () => {
     const hour = minute * 60;
     const day = hour * 24;
 
-    const textDay = Math.floor(gap / day); 
-    const textHour = Math.floor(gap % day / hour); 
+    const textDay = Math.floor(gap / day) + 1; 
 
-    const textDay2 = Math.floor(gap2 / day); 
-    const textHour2 = Math.floor(gap2 % day / hour); 
+    const textDay2 = Math.floor(gap2 / day) + 1; 
     
     comptStart.innerText = textDay + ' GÜN';
     start.innerText = textDay2 + ' GÜN';
