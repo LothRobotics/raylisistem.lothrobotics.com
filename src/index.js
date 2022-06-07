@@ -10,20 +10,17 @@ toggleBtn.addEventListener('click', () => {
 })
 
 
-
-
-
 // Date countdown below
 
 const targetDate = new Date(2022, 5, 11).getTime(),
 secondTargetDate = new Date(2022, 5, 6).getTime();
 
 const countdown = () => {
-    const now = new Date().getTime();
-    const gap = targetDate - now 
-    gap2 = secondTargetDate - now 
+    const now = new Date().getTime(),
+    gap = targetDate - now,
+    gap2 = secondTargetDate - now;
 
-    // Time work
+    // Some calculations and definitions below 
 
     const second = 1000;
     const minute = second * 60;
@@ -31,12 +28,14 @@ const countdown = () => {
     const day = hour * 24;
 
     const textDay = Math.floor(gap / day) + 1; 
-
     const textDay2 = Math.floor(gap2 / day) + 1; 
     
-    comptStart.innerText = textDay + ' GÜN';
-    start.innerText = textDay2 + ' GÜN';
-    //hourText.innerText = textHour + ' SAAT';
+
+    // Displaying stuff
+
+    comptStart.innerText = textDay >= 1 ? textDay + ' GÜN': 0 + ' GÜN';
+    start.innerText = textDay2>= 1 ? textDay2 + ' GÜN': 0 + ' GÜN';
+
 };
 
 countdown()
