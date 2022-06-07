@@ -17,10 +17,10 @@
             <header>
                 <!-- Website top area. Navbar, white logo etc. -->
                 <a href="./">
-                    <img src="./images/lothlogo.svg" alt="Loth Robotics Logo" class="lothlogo">
+                    <img src="./images/lothlogo.svg" alt="Loth Robotics Logo" class="lothlogo"> <!-- Loth Robotics Logo, on the left side of the navbar -->
                 </a>
                 <a href="#" class="toggle-btn">
-                    <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+                    <span class="bar"></span><span class="bar"></span><span class="bar"></span> <!-- Hamburger menu layout for smaller devices -->
                 </a>
                 <nav class="navbar">
                     <div class="navbar-links">
@@ -34,7 +34,7 @@
                 </nav>
             </header>
             <div class="yazi">
-                <img class="yarismalogo" src="./images/yarismalogo.svg">
+                <img class="yarismalogo" src="./images/yarismalogo.svg"> 
             </div>
         </div>
         <div class="banner2">
@@ -47,7 +47,10 @@
                                 <div>BAŞVURU SONU</div>
                             </div>                        
                             <div class="time">
-                                <div class="days-compt-start"></div>
+                                <!--
+                                    The contents of this dividion will be filled throughout Javascript code, not raw HTML
+                                -->
+                                <div class="days-compt-start"></div> 
                                 <div class="days-compt"></div>
                             </div>
                         </div>
@@ -55,7 +58,7 @@
                 </div>
 
                 <div class="basvuruContainer">
-                    <a href="./basvuru/" class="basvuru"><b style="font-weight: 1000;">Yarışmaya Başvur</b></a>
+                    <a href="./basvuru/" class="basvuru"><b style="font-weight: 1000;">Yarışmaya Başvur</b></a> <!-- Redirects to the ./basvuru/index.html -->
                 </div>
 
                 <div id="aboutus">
@@ -78,6 +81,7 @@ Raylı Sistem Araçları Yarışması ile öğrencilerin robotik ve raylı siste
                 <div id="announcements">
                     <h2 class="subTitle">Duyurular</h2>
                     <div class="announcementsBox">
+                        <!--Announces will be written directly, in this part. -->
                         <div class="box-6 box">
                             <h3>Son Başvuru Tarihi Güncellendi</h3>
                             <small>3/06/2022</small>
@@ -133,6 +137,9 @@ Raylı Sistem Araçları Yarışması ile öğrencilerin robotik ve raylı siste
     </body>
 
     <script>
+        /*
+            Appends smooth scroll behaviour to the animations, from below code executed; all a tags that aims an identity on the page, becomes smooth.
+        */ 
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
