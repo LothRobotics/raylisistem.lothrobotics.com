@@ -12,8 +12,8 @@ toggleBtn.addEventListener('click', () => {
 
 // Date countdown below
 
-const targetDate = new Date(2023, 5, 10).getTime(),
-secondTargetDate = new Date(2023, 5, 8).getTime();
+const targetDate = new Date(2024, 9, 19).getTime(),
+secondTargetDate = new Date(2024, 9, 15).getTime();
 
 const countdown = () => {
     const now = new Date().getTime(),
