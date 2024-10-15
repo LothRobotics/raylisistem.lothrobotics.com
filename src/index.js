@@ -13,7 +13,7 @@ toggleBtn.addEventListener('click', () => {
 // Date countdown below
 
 const targetDate = new Date(2024, 9, 19).getTime(),
-secondTargetDate = new Date(2024, 9, 15).getTime();
+secondTargetDate = new Date(2024, 9, 17).getTime();
 
 const countdown = () => {
     const now = new Date().getTime(),
