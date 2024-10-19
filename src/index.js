@@ -33,8 +33,10 @@ const countdown = () => {
 
     // Displaying stuff
 
-    comptStart.innerText = textDay >= 1 ? textDay + ' GÜN': 0 + ' GÜN';
-    start.innerText = textDay2>= 1 ? textDay2 + ' GÜN': 0 + ' GÜN';
+    //comptStart.innerText = textDay >= 1 ? textDay + ' GÜN': 0 + ' GÜN';
+    //start.innerText = textDay2>= 1 ? textDay2 + ' GÜN': 0 + ' GÜN';
+    comptStart.innerText = 'YAPILIYOR';
+    start.innerText = 'DOLDU';
 
 };
 
