@@ -12,8 +12,8 @@ toggleBtn.addEventListener('click', () => {
 
 // Date countdown below
 
-const targetDate = new Date(2024, 9, 19).getTime(),
-secondTargetDate = new Date(2024, 9, 17).getTime();
+const targetDate = new Date(2025, 5, 10).getTime(),
+secondTargetDate = new Date(2025, 5, 4).getTime();
 
 const countdown = () => {
     const now = new Date().getTime(),
@@ -33,10 +33,10 @@ const countdown = () => {
 
     // Displaying stuff
 
-    //comptStart.innerText = textDay >= 1 ? textDay + ' GÜN': 0 + ' GÜN';
-    //start.innerText = textDay2>= 1 ? textDay2 + ' GÜN': 0 + ' GÜN';
-    comptStart.innerText = 'YAPILDI';
-    start.innerText = 'DOLDU';
+    comptStart.innerText = textDay >= 1 ? textDay + ' GÜN': 0 + ' GÜN';
+    start.innerText = textDay2>= 1 ? textDay2 + ' GÜN': 0 + ' GÜN';
+    //comptStart.innerText = 'YAPILDI';
+    //start.innerText = 'DOLDU';
 
 };
 
