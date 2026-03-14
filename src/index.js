@@ -35,8 +35,8 @@ const countdown = () => {
 
     //comptStart.innerText = textDay >= 1 ? textDay + ' GÜN': 0 + ' GÜN';
     //start.innerText = textDay2>= 1 ? textDay2 + ' GÜN': 0 + ' GÜN';
-    comptStart.innerText = 'YAPILDI';
-    start.innerText = 'DOLDU';
+    comptStart.innerText = '9-10 MAYIS 2026';
+    start.innerText = '1 MAYIS 2026';
 
 };
 
